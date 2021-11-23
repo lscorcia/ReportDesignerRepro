@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Web.Reporting" Version="21.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiSE.Backend\MiSE.Backend.csproj" />
+    <ProjectReference Include="..\MiSE.Infrastructure\MiSE.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
